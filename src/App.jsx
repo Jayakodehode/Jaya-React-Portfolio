@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/Jaya-React-Portfolio/" element={<Landingpage />}>
-            <Route index element={<Home />} />
+            <Route path="/Jaya-React-Portfolio/home" element={<Home />} />
             <Route path="/Jaya-React-Portfolio/about" element={<About />} />
             <Route
               path="/Jaya-React-Portfolio/projects"

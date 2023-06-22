@@ -1,0 +1,17 @@
+.homepage {
+  background-color: #eee9ef;
+  min-height: 100vh;
+  color: #fff;
+}
+.homepage-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homepage-intro > h1 {
+  font-size: 56px;
+  color: #680ea0;
+}
+.homepage-intro > h3 {
+  font-size: 26px;
+}

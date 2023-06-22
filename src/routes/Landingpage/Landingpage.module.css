@@ -1,0 +1,27 @@
+.landingpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+.main {
+  flex-grow: 1;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  font-size: 56px;
+  color: #680ea0;
+  font-weight: 900;
+}
+.navitems {
+  display: flex;
+  gap: 2rem;
+}
+.navitems > li {
+  list-style-type: none;
+}
