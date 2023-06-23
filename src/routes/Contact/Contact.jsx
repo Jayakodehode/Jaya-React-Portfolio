@@ -1,13 +1,38 @@
+import style from "./Contact.module.css";
 export function Contact() {
   return (
-    <div>
-      <h1>Contact</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ullam
-        harum voluptate numquam accusantium voluptatum a velit ratione odio.
-        Adipisci earum error saepe odio vel blanditiis ea beatae nisi
-        exercitationem?
-      </p>
+    <div className={style["contact-page"]}>
+      <div className={style["contact-form"]}>
+        <form action="submit" className={style["form"]}>
+          <label htmlFor="">Yourname</label>
+          <br />
+          <input type="text" name="" id="" placeholder="Enter your name" />
+          <br />
+
+          <label htmlFor="">EmailId</label>
+          <br />
+          <input type="email" name="" id="" placeholder="Enter your email-id" />
+          <br />
+
+          <label htmlFor="">Your Message</label>
+          <br />
+
+          <textarea name="" id="" cols="25" rows="10">
+            Your message
+          </textarea>
+          <br />
+
+          <button type="submit">Contact me</button>
+        </form>
+      </div>
+      <div className={style["contact-info"]}>
+        <h1>Contact Me</h1>
+        <p>
+          Feel free to contact me, i would like to discuss anything whatever is
+          running in your mind. hope i can help you, so don't hesitate to
+          contact me
+        </p>
+      </div>
     </div>
   );
 }

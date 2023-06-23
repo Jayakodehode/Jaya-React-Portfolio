@@ -6,6 +6,8 @@
 }
 .main {
   flex-grow: 1;
+  max-width: 1280px;
+  min-height: 100vh;
 }
 .navbar {
   display: flex;

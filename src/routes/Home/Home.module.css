@@ -1,5 +1,5 @@
 .homepage {
-  background-color: #eee9ef;
+  background-color: antiquewhite;
   min-height: 100vh;
   color: #fff;
 }
@@ -8,10 +8,15 @@
   flex-direction: column;
   align-items: center;
 }
-.homepage-intro > h1 {
-  font-size: 56px;
+.homepage-intro > p > span {
+  font-size: 50px;
   color: #680ea0;
 }
-.homepage-intro > h3 {
-  font-size: 26px;
+.homepage-intro > p {
+  color: grey;
+  font-size: 22px;
+}
+p {
+  color: grey;
+  font-size: 22px;
 }
