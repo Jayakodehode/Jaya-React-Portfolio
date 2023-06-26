@@ -1,23 +1,23 @@
 .contact-page {
   margin-top: 50px;
   max-width: 1280px;
-  min-height: 100vh;
+  min-height: 700px;
   display: flex;
   justify-content: space-between;
   box-shadow: 4px 4px 15px grey;
+  border-radius: 5px;
 }
 .contact-form {
-  width: 600px;
+  width: 700px;
   height: 500px;
   margin: 50px;
-
-  padding: 10px;
+  border-radius: 10px;
+  padding: 30px;
   box-shadow: 1px 1px 1px 10px #680ea0;
 }
 .form > label {
   color: black;
   font-size: 18px;
-  margin: 10px;
 }
 input {
   width: 300px;
@@ -42,9 +42,8 @@ button {
   padding: 10px;
   border: 2px solid #680ea0;
   border-radius: 10px;
-  align-content: center;
 }
-contact-info {
+.contact-info {
   padding: 10px;
   margin: 10px;
 }

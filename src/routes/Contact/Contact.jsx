@@ -27,6 +27,7 @@ export function Contact() {
       </div>
       <div className={style["contact-info"]}>
         <h1>Contact Me</h1>
+        <p>Let's have a quickchat about your thoughts</p>
         <p>
           Feel free to contact me, i would like to discuss anything whatever is
           running in your mind. hope i can help you, so don't hesitate to
